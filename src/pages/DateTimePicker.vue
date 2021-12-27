@@ -2,7 +2,15 @@
   <div class="timepickerWrapper">
     <section class="demoSection">
       <DateTimePicker
-        :singleDate="singleDate"
+        :singleDate="false"
+        timeFormat="HH:mm"
+        @onChange="handlerOnChange"
+      />
+    </section>
+
+    <section class="demoSection">
+      <DateTimePicker
+        :singleDate="true"
         timeFormat="HH:mm"
         @onChange="handlerOnChange"
       />
@@ -74,7 +82,7 @@ data: function(){
   margin-top: 300px;
 
   .demoSection {
-    width: 200px;
+    width: 400px;
     margin: auto;
   }
 

@@ -1,31 +1,31 @@
 const weekDayConfig = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
+  "Sonntag",
+  "Montag",
+  "Dienstag",
+  "Mittwoch",
+  "Donnerstag",
+  "Freitag",
+  "Samstag"
 ];
 
-const weekDayShortConfig = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const weekDayShortConfig = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
 
 const monthConfig = [
-  "January",
-  "February",
-  "March",
+  "Januar",
+  "Februar",
+  "März",
   "April",
-  "May",
-  "June",
-  "July",
+  "Mai",
+  "Juni",
+  "Juli",
   "August",
   "September",
-  "October",
+  "Oktober",
   "November",
-  "December"
+  "Dezember"
 ];
 
-const monthShortConfig = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+const monthShortConfig = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']
 
 
 export const daysInMonth = (year, month) => {

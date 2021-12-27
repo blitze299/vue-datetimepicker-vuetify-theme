@@ -54,9 +54,9 @@ const _getDateString = (date, format = "hh:mm:A") => {
   const mm = timeObject.mm;
   const a = timeObject.A;
 
-  if (HH) return `${startYear} ${startMonth} ${starDate}  ${HH}:${mm}`;
+  if (HH) return `${starDate} ${startMonth} ${startYear} ${HH}:${mm}h`;
 
-  return `${startYear} ${startMonth} ${starDate}  ${hh}:${mm} ${a}`;
+  return `${starDate} ${startMonth} ${startYear} ${HH}:${mm}h ${a}`;
 };
 
 export default {

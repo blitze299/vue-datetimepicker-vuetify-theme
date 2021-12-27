@@ -12,7 +12,7 @@
       </div>
       <div class="timeContainer">
         <div class="startTime timeRow">
-          <span class="subTitle">From</span>
+          <span class="subTitle">Von</span>
           <div>
             <span class="bigNumber">{{ innerStartDate.getDate() }}</span>
             {{ getShortMonth(innerStartDate.getMonth()) }}
@@ -25,7 +25,7 @@
           />
         </div>
         <div class="endTime timeRow" v-if="!singleDate">
-          <span class="subTitle">To</span>
+          <span class="subTitle">Bis</span>
           <div>
             <span class="bigNumber">{{ innerEndDate.getDate() }}</span>
             {{ getShortMonth(innerEndDate.getMonth()) }}
@@ -40,8 +40,8 @@
       </div>
     </div>
     <div class="buttonWrap">
-      <a class="confirm" @click.stop.prevent="__onSubmit">submit</a>
-      <a class="cancel" @click.stop.prevent="__onCancel">cancel</a>
+      <a class="confirm" @click.stop.prevent="__onSubmit">Speichern</a>
+      <a class="cancel" @click.stop.prevent="__onCancel">zurück</a>
     </div>
   </div>
 </template>
